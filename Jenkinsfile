@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Tes') {
+        stage('Test') {
             steps {
                 sh 'eject; exit 1'
             }
